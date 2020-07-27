@@ -1,54 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="with=device-with,initial-scale=1.0">
-        <title>Document</title>
-        <style>/*样式标签*/
-		body{
-			margin:0;
-			}
-        .wrp{
-           
-		   margin:100px;
-		   width: 200px;
-           height: 200px;
-        }
-        img{
-            position: absolute;
-            opacity: 1;  
-            transition: all 2s; 
-            
-        }
-        
-        .three{
-            opacity: 0;
-        }
-        .two{
-            z-index: 1;
-            animation: showBox 2s forwards;
-            animation-delay: 3s;
-        }
-        .two：hover{
+<!doctype html>
+<html>
+<head>	
+<meta charset="utf-8">
+<title>Mistysigh  Web</title>
+	<style>
+		.hello_git
+		{
+			width:500px;
+			height:300px;
+			background:black;
+			margin: auto;
+			margin-top:300px;
+			border-radius: 10px;
+		}
+		.hello_git li
+		{
+			
+			color: aliceblue;
+			margin-top:10px;
+			margin-left:40px;
+		}
+	</style>
+</head>
+<body>
+	<div class="hello_git">
+		<br><br><br><br>
+		<ul>
+			<li>Hello Github</li>
+			<li>欢迎</li>
+		</ul>
+	</div>
 
-            opacity: 0;
-        }
-       
-        @keyframes showBox{
-        0%{
-
-        }
-        100%{
-            opacity: 0;
-        }
-        }
-        </style>
-    </head>
-    <body>
-        <div class="wrp" >
-            <img src="img/1.webp" style="width:500px;height:470px;">
-            <img src="img/2.webp" class="two" style="width:500px;height:470px;">
-            <img src="img/3.webp" class="three" style="width:500px;height:470px;">
-        </div><!--盒子-->
-    </body>
+</body>
 </html>
