@@ -5,7 +5,7 @@ body {
 }
 
 h1, h2 {
-	color : rgb(180,78,78);
+	color : #00FFFF;
 	text-align:center;
 }
 
@@ -16,5 +16,5 @@ p {
 div{
 	height:300px;
 	width:100%;
-	background-color:#ee3e80;
+	background-color:#561242;
 }
